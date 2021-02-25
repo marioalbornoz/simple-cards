@@ -29,7 +29,7 @@ export const Cards = () => {
       <div className="container d-flex justify-content-center align-items-center h-100">
         <div className="row">
           {cards.map((card) => (
-            <div className="col-md-4" key={card.id}>
+            <div className="col-md-4 animate__animated animate__fadeInUp" key={card.id}>
               <Card title={card.title} img={card.image} />
             </div>
           ))}
